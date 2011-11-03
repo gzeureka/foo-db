@@ -12,7 +12,7 @@
            [:p "Welcome to foo-db"]))
 
 
-(def data-source (setup-data-source "jdbc:oracle:thin:mydba2/mydbadev890@172.16.7.39:1521/orclsh"))
+(def data-source (setup-data-source "jdbc:oracle:thin:ussername/pasword@1host:port/sid"))
 (def db {:datasource data-source})
 
 (defpage "/app" []
