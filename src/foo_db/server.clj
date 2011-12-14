@@ -1,6 +1,5 @@
 (ns foo-db.server
-  (:require [noir.server :as server]
-            [clojure.contrib.sql]))
+  (:require [noir.server :as server]))
 
 (server/load-views-ns 'foo-db.views)
 
